@@ -1,5 +1,7 @@
 # securecart-aws-security-pillar
 Secure multi-tier web app on AWS  Well-Architected Security Pillar
+### Architecture diagram
+<img width="905" height="654" alt="securecart-architecture-diagram" src="https://github.com/user-attachments/assets/96d68176-591f-4c11-9a66-5d9f5db14244" />
 
 ### ALB-backend response 
 <img width="831" height="305" alt="ALB-backend" src="https://github.com/user-attachments/assets/ada4e617-1b11-4332-ad04-6dadc34bc960" />

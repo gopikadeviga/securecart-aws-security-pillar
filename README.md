@@ -9,6 +9,14 @@ A hands-on implementation of the **AWS Well-Architected Framework (Security Pill
 ### Architecture diagram
 <img width="905" height="654" alt="securecart-architecture-diagram" src="https://github.com/user-attachments/assets/96d68176-591f-4c11-9a66-5d9f5db14244" />
 
+## Overview
+
+SecureCart demonstrates **defense in depth**: multiple independent layers of protection so that no single failure exposes the system. A public facing load balancer is the only internet reachable component. The application runs on a private EC2 instance with no public IP, and the database is unreachable from the internet : a design proven with live connectivity tests (see [Verification](#verification)).
+
+**Key principle demonstrated:** the application *can* reach the database; the public internet *cannot*.
+
+---
+
 ### Network topology
 | Subnet | AZ | Contents |
 |---|---|---|

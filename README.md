@@ -1,5 +1,11 @@
-# securecart-aws-security-pillar
-Secure multi-tier web app on AWS  Well-Architected Security Pillar
+# SecureCart — Secure Multi-Tier Web Application on AWS
+
+A hands-on implementation of the **AWS Well-Architected Framework (Security Pillar)**. SecureCart is a multi-tier web application where the application and database tiers are fully isolated from the public internet, protected by layered security groups, a web application firewall, and keyless administrative access.
+
+> **Status:** Completed and verified end-to-end. Built via the AWS Console in `us-east-1`(N. Virginia).
+
+---
+
 ### Architecture diagram
 <img width="905" height="654" alt="securecart-architecture-diagram" src="https://github.com/user-attachments/assets/96d68176-591f-4c11-9a66-5d9f5db14244" />
 

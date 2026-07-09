@@ -18,6 +18,8 @@ SecureCart demonstrates **defense in depth**: multiple independent layers of pro
 
 <img width="905" height="654" alt="securecart-architecture-diagram" src="https://github.com/user-attachments/assets/96d68176-591f-4c11-9a66-5d9f5db14244" />
 
+---
+
 ### Network topology
 | Subnet | AZ | Contents |
 |---|---|---|
@@ -26,6 +28,15 @@ SecureCart demonstrates **defense in depth**: multiple independent layers of pro
 | Private 1 | us-east-1a | EC2 (application), RDS |
 | Private 2 | us-east-1b | RDS standby slot |
 
+---
+
+## Tech stack
+
+**AWS services:** VPC, Subnets, Internet Gateway, NAT Gateway, Route Tables, Security Groups, EC2, RDS (MySQL), Application Load Balancer, AWS WAF, IAM, Systems Manager (Session Manager)
+
+**Region:** us-east-1
+
+---
 
 ### ALB-backend response 
 <img width="831" height="305" alt="ALB-backend" src="https://github.com/user-attachments/assets/ada4e617-1b11-4332-ad04-6dadc34bc960" />
